@@ -1,0 +1,19 @@
+{
+  "description": "Puppet Enterprise Support KB Template",
+  "input_method": "stdin",
+  "supports_noop": true,
+  "parameters": {
+    "example_optional_integer": {
+      "description": "Example optional integer parameter",
+      "type": "Optional[Variant[Integer, Pattern[/^[0-9]+$/]]]"
+    },
+    "example_optional_string": {
+      "description": "Example optional string parameter",
+      "type": "Optional[Pattern[/^[A-Za-z0-9._-]+$/]]"
+    },
+    "example_optional_boolean": {
+      "description": "Example optional boolean parameter",
+      "type": "Optional[Enum['true', 'false']]"
+    }
+  }
+}
